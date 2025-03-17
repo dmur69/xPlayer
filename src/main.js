@@ -4,8 +4,8 @@ import router from "./router";
 import store from "./store";
 import VeeValidatePlugin from "./includes/validation";
 import { auth } from "./datamappers/firebase/firebase";
-import "./assets/tailwind.css";
-import "./assets/main.css";
+import "./assets/base.css";
+// import "./assets/main.css";
 
 let app;
 
