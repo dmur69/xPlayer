@@ -17,7 +17,6 @@ auth.onAuthStateChanged(() => {
     app.use(store);
     app.use(router);
     app.use(VeeValidatePlugin);
-    app.use(i18n);
 
     app.mount("#app");
   }

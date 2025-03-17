@@ -4,7 +4,8 @@ import {
   defineRule,
   ErrorMessage,
   configure,
-} from 'querystring';
+} from 'vee-validate';
+
 import {
   required,
   min,
