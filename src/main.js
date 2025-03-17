@@ -5,7 +5,7 @@ import store from "./store";
 import VeeValidatePlugin from "./includes/validation";
 import { auth } from "./datamappers/firebase/firebase";
 import "./assets/base.css";
-// import "./assets/main.css";
+import "./assets/main.css";
 
 let app;
 
