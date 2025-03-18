@@ -8,6 +8,7 @@ export default {
     return `${minFomated}:${secFomated}`;
   },
 
+  // Transform to seconds
   formatTimerValueToSec(timeValueString) {
     try {
       const minutes = parseInt(timeValueString.split(":")[0], 10);
