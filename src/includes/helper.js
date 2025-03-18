@@ -20,6 +20,7 @@ export default {
     }
   },
 
+  // Limits string :-)
   stringLimiter(str, count) {
     if (str.length < count) return str;
     const s = str.substring(0, count);
